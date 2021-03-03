@@ -26,4 +26,6 @@ topMenuEl.style.height = '100%';
 
 topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 
+// Task 2.3
 
+topMenuEl.setAttribute('class', 'flex-around');
