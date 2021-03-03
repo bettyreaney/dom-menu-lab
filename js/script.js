@@ -18,4 +18,7 @@ mainEl.setAttribute('class', 'flex-ctr');
 
 const topMenuEl = document.querySelector('#top-menu');
 
+// Task 2.1
+
+topMenuEl.style.height = '100%';
 
