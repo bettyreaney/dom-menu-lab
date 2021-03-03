@@ -1,3 +1,12 @@
+//Task 3.0
+
+var menuLinks = [
+    {text: 'about', href: '/about'},
+    {text: 'catalog', href: '/catalog'},
+    {text: 'orders', href: '/orders'},
+    {text: 'account', href: '/account'},
+  ];
+
 // Task 1.0
 
 const mainEl = document.querySelector('main');
@@ -29,3 +38,5 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 // Task 2.3
 
 topMenuEl.setAttribute('class', 'flex-around');
+
+
