@@ -13,3 +13,7 @@ mainEl.innerHTML = '<h1>SEIR Rocks!';
 // Task 1.3
 
 mainEl.setAttribute('class', 'flex-ctr');
+
+// Task 2.0
+
+const topMenuEl = document.querySelector('<nav id="top-menu">');
