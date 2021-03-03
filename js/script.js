@@ -16,4 +16,6 @@ mainEl.setAttribute('class', 'flex-ctr');
 
 // Task 2.0
 
-const topMenuEl = document.querySelector('<nav id="top-menu">');
+const topMenuEl = document.querySelector('#top-menu');
+
+
