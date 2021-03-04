@@ -39,4 +39,11 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 
 topMenuEl.setAttribute('class', 'flex-around');
 
+// Task 3.1
 
+menuLinks.forEach(link => {
+    let temp = document.createElement('a');
+    temp.setAttribute('href', link.href)
+    temp.textContent = link.text;
+    topMenuEl.appendChild(temp)
+})
